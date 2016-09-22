@@ -33,5 +33,9 @@ void loop() {
 }
 
 /===============================================
-
+bool checkChange(int &but, int &butLast)
+{
+  bool ret = (but != butLast);
+  butLast = but;
+}
 
